@@ -24,9 +24,15 @@ export default function About() {
             I love sharing knowledge and guiding aspiring developers toward successful careers.
             Outside of coding, I enjoy continuous learning and inspiring others to grow.
           </p>
-          <button className="border border-yellow-500 text-yellow-500 px-5 py-2 rounded-full hover:bg-yellow-500 hover:text-black transition">
-            My Projects
-          </button>
+          
+         <a href="https://github.com/sheikhhaseeb937?tab=repositories" target="_blank">
+         <button className="border border-yellow-500 text-yellow-500 px-5 py-2 rounded-full hover:bg-yellow-500 hover:text-black transition">
+         My Projects
+         </button>
+
+         
+         </a>
+
         </div>
       </motion.div>
        
