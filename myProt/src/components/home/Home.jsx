@@ -4,6 +4,13 @@ import { motion} from "framer-motion";
 import { fadeIn } from "../../framermotion/variant.js";
 
 export default function Home() {
+    const openWhatsApp = () => {
+const message = "Hello, I want to know more!";
+const url = `https://wa.me/923150006458?text=${encodeURIComponent(message)}`;
+window.open(url, "_blank");
+
+
+  };
   return (
     <section className="bg-transparent  text-white py-12">
       <div className="max-w-7xl mt-[100px] mx-auto flex flex-col items-center justify-between md:flex-row px-[45px]">
@@ -41,7 +48,17 @@ export default function Home() {
       >
         A Passionate Web Developer and Instructor  with 3 years of
         experience.
+ 
       </motion.p>
+       <div className="mt-5">
+                        <a
+          onClick={openWhatsApp}
+            href="#hire"
+            className=" px-6 py-4  bg-gradient-to-r from-teal-400 to-yellow-400 rounded-full text-black font-semibold hover:brightness-110 transition"
+          >
+            Hire Me →
+          </a>
+       </div>
           {/* <p className="mt-4 text-lg text-gray-200">
             A Passionate Web Developer and Instructor with 3 years of experience.
           </p> */}

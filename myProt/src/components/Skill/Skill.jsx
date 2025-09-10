@@ -66,15 +66,15 @@ const Skill = () => {
     },
         {
       imgSrc: typescriptImg,
-      label: 'Supabase',
-      desc: 'Supabase is an open-source Firebase alternative providing a backend with authentication, database, and storage.',
-      url: 'https://supabase.com/',
+      label: 'TypeScript',
+      desc: 'TypeScript is a typed superset of JavaScript developed by Microsoft that adds static typing to the language.',
+      url: 'https://www.typescriptlang.org/',
     },
         {
       imgSrc: muiImg,
-      label: 'Supabase',
-      desc: 'Supabase is an open-source Firebase alternative providing a backend with authentication, database, and storage.',
-      url: 'https://supabase.com/',
+      label: 'Material UI',
+      desc: 'Material UI (MUI) is a popular React component library that implements Google’s Material Design system.',
+      url: 'https://mui.com/material-ui/',
     },
   ];
 

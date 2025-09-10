@@ -16,6 +16,15 @@ export default function Navbar() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+    const openWhatsApp = () => {
+const message = "Hello, I want to know more!";
+const url = `https://wa.me/923150006458?text=${encodeURIComponent(message)}`;
+window.open(url, "_blank");
+
+
+  };
+
+
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -34,6 +43,7 @@ export default function Navbar() {
           <a href="#projects" className="hover:text-yellow-500 transition">Projects</a>
           <a href="#contact" className="hover:text-yellow-500 transition">Contact</a>
           <a
+          onClick={openWhatsApp}
             href="#hire"
             className="px-4 py-2 bg-gradient-to-r from-teal-400 to-yellow-400 rounded-full text-black font-semibold hover:brightness-110 transition"
           >
